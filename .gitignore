@@ -1,0 +1,35 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Java / Kotlin class files
+*.class
+*.dex
+
+# Generated / build outputs
+bin/
+gen/
+out/
+build/
+release/
+
+# Gradle cache (keep gradle/ wrapper)
+.gradle/
+
+# Local configuration (SDK path, etc.)
+local.properties
+
+# IDE / OS
+*.iml
+.idea/
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Logs & keystores
+*.log
+*.jks
+*.keystore
