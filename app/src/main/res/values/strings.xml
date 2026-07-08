@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VX浏览器</string>
+    <string name="search_hint">搜索或输入网址</string>
+    <string name="scan_todo">扫码功能待实现</string>
+</resources>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/colorBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingVertical="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="启用 JavaScript" />
+
+        <Switch
+            android:id="@+id/switchJs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingVertical="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="夜间模式" />
+
+        <Switch
+            android:id="@+id/switchNight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingVertical="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="广告拦截" />
+
+        <Switch
+            android:id="@+id/switchAd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingVertical="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="媒体嗅探" />
+
+        <Switch
+            android:id="@+id/switchSniffer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingVertical="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="阻止弹窗" />
+
+        <Switch
+            android:id="@+id/switchBlockPopup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingVertical="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="阻止自动跳转" />
+
+        <Switch
+            android:id="@+id/switchBlockRedirect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/importRules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="导入拦截规则（文件/URL）"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/clearUserRules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清空自定义规则"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/clearSniffer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清空嗅探记录"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/clearHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清除历史记录"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/clearBookmarks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清除书签"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
